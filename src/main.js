@@ -6,7 +6,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyB_kCUGqXvLZWV36fn3Khg4MbqDIwtI6Dk';
+const API_KEY = ''; // get a youtube api key from Google (https://console.developers.google.com)
 
 
 class App extends Component{
