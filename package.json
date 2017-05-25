@@ -1,12 +1,19 @@
 {
   "name": "youtube-sample-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample app from Youtube api built on React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Subash KC",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.0"
+  }
 }
