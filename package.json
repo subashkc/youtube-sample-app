@@ -4,6 +4,8 @@
   "description": "A sample app from Youtube api built on React",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack",
+    "start": "node_modules/.bin/webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +16,13 @@
     "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^2.6.0"
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.0",
+    "youtube-api-search": "0.0.5"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5"
   }
 }
